@@ -1,0 +1,18 @@
+body{
+	font-weight:100;
+	position:static;
+	color:brown;
+}
+.header{
+	margin-top:60px;
+	text-align:center;
+
+/*Typography*/
+
+h2{
+	font-family:lucida grande, candara,calibri,sans-serif;
+}
+
+p{
+	font-family:Gill Sans,Optima,Calibri, sans-serif;
+}

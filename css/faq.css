@@ -1,0 +1,45 @@
+
+*{
+	box-sizing:border-box;
+}
+
+body {
+	font-weight:100;
+	position:static;
+}
+.header{
+	padding-top:6%;
+	padding-bottom:2%;
+	text-align:center;
+	font-size:2.5em;
+}
+.row{
+	margin:100px 50px 50px 100px;
+	display:inline-block;
+}
+
+.basket{
+	width:80%;
+	display:inline-block;
+
+}
+
+.glyphicon{
+	color:#353432;
+}
+
+.panel-body{
+	background-color: #eab065;
+}
+
+.panel-heading{
+	background-color: #b1a384;
+}
+
+.panel-title{
+	color:;
+}
+
+h4{
+	margin-top:20px;
+}

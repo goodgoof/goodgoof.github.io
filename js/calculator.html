@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meat http-equiv="X-UA Compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/calculator.css">
+  </head>
+
+  <title>Calculator</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  }
+@media screen and (min-width:320px){
+
+body{
+  background-image: url("../img/darkwood.jpg");
+}
+
+.calculator{
+  height:350px;
+  color:white;
+  background-color:rgba(96, 110, 132,.9);
+  width:320px;
+  margin:auto;
+  margin-top:50px;
+  border:3px solid lime;
+  box-shadow:10px 10px 5px black;
+  border-radius:5px;
+
+}
+.screen {
+  height:25px;
+  width:100%;
+  margin:1px;
+  border:solid lime 2px;
+  background-color:light blue;
+  border-radius:5px;
+  padding-bottom:5px;
+
+}
+
+.screen:hover{
+  background-color:#a0b4d3;
+}
+
+.box{
+  margin:1px;
+  width:10px;
+  height:10px;
+  border:solid lime 2px;
+  text-align:center;
+  border-radius:5px;
+  background-color:;
+  font-weight: bold;
+
+}
+
+.box:hover {
+  background-color:#a0b4d3;
+}
+
+
+</style>
+  <body>
+    <table class="calculator">
+      <tr>
+        <td class="screen" colspan="4"></td>
+      </tr>
+      <tr>
+        <td class="box">7</td>
+        <td class="box">8</td>
+        <td class="box">9</td>
+        <td class="box">/</td>
+      </tr>
+      <tr>
+        <td class="box">4</td>
+        <td class="box">5</td>
+        <td class="box">6</td>
+        <td class="box">*</td>
+      </tr>
+      <tr>
+        <td class="box">1</td>
+        <td class="box">2</td>
+        <td class="box">3</td>
+        <td class="box">-</td>
+      </tr>
+      <tr>
+        <td class="box">0</td>
+        <td class="box">.</td>
+        <td class="box">=</td>
+        <td class="box">+</td>
+      </tr>
+    </table>
+
+  </body>
+</html>

@@ -1,0 +1,77 @@
+
+*{
+	box-sizing:border-box;
+	
+}
+
+body {
+	font-weight:100;
+	position:static;
+}
+
+.header h1{
+	text-align:center;
+	margin-top:50px;
+	
+}
+.image {
+	display:inline-block;
+	float:left
+	width:100%;
+	
+}
+.intro {
+	display:inline-block;
+	float:left;
+	padding-bottom:0 20px;
+	/*padding will not affect box size 
+	as box size is specified at the top */
+	width:100%;
+
+
+}
+
+
+.main-text {
+	clear:both;
+	padding-top:60px;
+}
+
+.column {
+	width:30%;
+	float:left;
+	padding:0 20px;
+	display:inline-block;
+
+}
+.skills {
+	display:inline-block;
+	float:left;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#5ad4c2!important;
+	color:#fff;
+	font-size:1em;	
+}
+#skills-list{
+	margin-left:50px;
+}
+
+h2 {
+	margin-top:0px;
+}
+
+.intro p{
+	font-family:Futura,Helvetica,Arial,sans-serif;
+	font-size: 1em;
+	font-weight:100;
+	-webkit-margin-before: 0;
+
+}
+
+.skills h3{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:smaller;
+}
+.footer:

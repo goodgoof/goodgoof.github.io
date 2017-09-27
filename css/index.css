@@ -1,0 +1,286 @@
+
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-weight: 400;
+  position: static;
+  background-color: #ffffff;
+  font-size: 16px;
+
+  }
+
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+	}
+
+h3 {
+  margin-top: 0;
+  padding-top: 0;
+  }
+
+.carousel-caption  {
+  bottom: 150px;
+  font-size: 2.5em;
+  }
+
+.header {
+  text-align: center;
+  }
+
+/** Home page**/
+.container-fluid h1 {
+  color: grey;
+  height: inherit;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px
+  }
+
+.brief {
+  margin-left: 15px;
+  margin-right: 15px
+  }
+
+.btn-default {
+  background-color: orange;
+  position: top;
+  }
+
+.glyphicon {
+  color: orange;
+  font-size: 2.2em;
+  }
+
+.glyphicon: hover {
+  color: blue;
+  -webkit-transition: color 01s;
+  }
+
+/** About page**/
+
+#story {
+  margin-left: 15px;
+  margin-right: 15px
+  }
+
+#video {
+  margin-top: 0;
+  }
+#skill-list {
+  font-weight:400;
+  }
+
+#work2 {
+  background-image: url("../img/landscape.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /**padding:100px;
+    padding-top:10px;
+    height: 800px;
+    display:**/
+  }
+
+/** Navigation style**/
+.navbar-default {
+  background-color: #0c0a0a;
+  color:
+  }
+.navbar-brand>ul>li>a {
+  color: transparent white;
+  }
+
+/***contact page ***/
+
+.Contact {
+  text-align: left;
+  color: transparent white;
+  }
+
+#contact {
+  background-image: url("../img/paykyb.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  color:  white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /**padding:100px;
+    padding-top: 30px;
+    height: 600px;
+    width:100%;**/
+  }
+
+#submit {
+  margin-top: 15px;
+  }
+
+.form-control {
+	width: 100%;
+  }
+
+#message {
+  background-color:#e9f8e8;;
+  }
+
+
+/** FAQ page**/
+
+/**.panel-body{
+	color:brown black;
+	}
+**/
+#FAQ {
+  /*background-image: url("../img/darkwood.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  color: black brown;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+   /** padding:100px;
+    padding-top:10px;
+    height: 600px;**/
+    /**font-size:1.2em;**/
+  text-align: left;
+  background-color: #231f1f;
+  }
+
+#more_help {
+  background-color: (169, 159, 133, 0.51);
+  }
+
+#help {
+  margin-top: 15px;
+  text-align: center;
+  float: left;
+  color: white;
+  }
+
+.modal-button {
+  float: right;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-align: right;
+  margin-right: 25px;
+  }
+
+.panel-heading {
+  background-color: #bbbab1;;
+  }
+
+/*Typography*/
+
+li {
+  font-family: Gill Sans,Optima,Calibri, sans-serif;
+  }
+
+h2 {
+  font-family: lucida grande, candara,calibri,sans-serif;
+  }
+
+p {
+  font-family: Gill Sans,Optima,Calibri, sans-serif;
+  }
+
+
+/** footer**/
+.footer {
+  float: right;
+  color: white;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  }
+
+.fb-share-button {
+  display: inline-block;
+  padding-right: 10px;
+  float: left;
+  }
+
+.fb-share-button {
+  float: right;
+  }
+
+#copyright {
+  background-color: black;
+  width: 100%;
+  float: right;
+  padding:15px;
+  }
+
+iframe {
+  margin: auto;
+  padding-top: 0px;
+  text-align: center;
+  float: right;
+  font: smaller;
+  }
+  .google{
+    float:left;
+    margin:5px;
+  }
+Add this styling to your CSS see if it appears then...
+/**fb-like span, .fb-like iframe {
+width: 100px !important;
+height: 100px !important;
+}**/
+.fb-share-button {
+  display: inline-block;
+  padding-right: 10px;
+  float: right;
+  }
+
+.modal-button {
+  float: right;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-align: right;
+  margin-right: 25px;
+  }
+
+#MyResume{
+    width:100%;
+    height:400px;
+  }
+.work-img{
+  display:block;
+  margin:auto;
+  max-width:200px;
+  position:relative;
+}
+.info{
+  position:absolute;
+  top:15%;
+  left:22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display:none;
+}
+.proj-title{
+  font-weight:100;
+}
+
+#map{
+  width:100%;
+  height:200px;
+}
+
+
+
