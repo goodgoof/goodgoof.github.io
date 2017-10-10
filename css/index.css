@@ -9,7 +9,7 @@ body {
   position: static;
   background-color: #ffffff;
   font-size: 16px;
-
+  background: linear-gradient(to right, #ADA996 0%,#DBDBDB 100%);
   }
 
 h2 {
@@ -32,7 +32,7 @@ h3 {
   }
 
 /** Home page**/
-.container-fluid h1 {
+.container h1 {
   color: grey;
   height: inherit;
   width: 100%;
@@ -153,8 +153,9 @@ h3 {
     padding-top:10px;
     height: 600px;**/
     /**font-size:1.2em;**/
-  text-align: left;
+  text-align: center;
   background-color: #231f1f;
+
   }
 
 #more_help {
