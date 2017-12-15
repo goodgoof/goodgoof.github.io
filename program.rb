@@ -1,4 +1,4 @@
-puts "hello"
+=beginputs "hello"
 p "Halo"
 def greeting # here we say def to define a method and putthe name of our method
 	  p "hkello"#here's the code inside our method
@@ -14,3 +14,4 @@ def greeting
 end
 greeting
 p 2+2
+==end

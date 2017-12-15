@@ -9,7 +9,8 @@ body {
   position: static;
   background-color: #ffffff;
   font-size: 16px;
-  background: linear-gradient(to right, #ADA996 0%,#DBDBDB 100%);
+  background: linear-gradient(to right, #1c92d2 #1c92d2 0%, #DBDBDB #1c92d2 100%);
+  font-family: helvetica;
   }
 
 h2 {
@@ -20,32 +21,63 @@ h2 {
 h3 {
   margin-top: 0;
   padding-top: 0;
+  font-size: 40px;
+  color: grey;
   }
 
-.carousel-caption  {
-  bottom: 150px;
-  font-size: 2.5em;
-  }
+.container {
+  width: 80%;
+}
+.jumbotron {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/images_for_web/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.my_image {
+  
+  margin-left:50px;
+  border-radius: 40%;
+}
+
 
 .header {
   text-align: center;
   }
+
+  ul.nav.navbar-nav:hover {
+    background-color: orange;
+  }
+
+  
 
 /** Home page**/
 .container h1 {
   color: grey;
   height: inherit;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px
   }
 
 .brief {
   margin-left: 15px;
-  margin-right: 15px
-  }
+  margin-right: 15px;
+  letter-spacing: 2.5px;
+  line-height: 30px;
+  font-size: 2rem;
+  color: #986d76;
+}
 
+.row2, .row3, .row4 {
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;*/
+}
 .btn-default {
   background-color: orange;
   position: top;
@@ -56,10 +88,32 @@ h3 {
   font-size: 2.2em;
   }
 
-.glyphicon: hover {
+.glyphicon-envelope, .glyphicon-earphone{
+  padding: 10px;
+  line-height: 65px;
+
+}
+
+.proj {
+  font-size: 34px;
+  color: grey;
+}
+
+#projects {
+  height: 85px;
+}
+ a.email, .address {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #986d76;
+}
+.glyphicon:hover {
   color: blue;
   -webkit-transition: color 01s;
   }
+.number {
+  color: #986d76;
+}
 
 /** About page**/
 
@@ -71,29 +125,65 @@ h3 {
 #video {
   margin-top: 0;
   }
-#skill-list {
+#skill-list{
   font-weight:400;
+  color: #986d76;
+  list-style: none;
+  font-size: 2.5rem;
+
   }
 
-#work2 {
-  background-image: url("../img/landscape.jpg");
-/*Add a background image*/
-  background-attachment: fixed;
-/*Give the background a fixed position does it not scroll when you scroll*/
-  background-size: cover;
-/*Have the background cover the entire div section*/
-  color: white;
-/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
-    /**padding:100px;
-    padding-top:10px;
-    height: 800px;
-    display:**/
-  }
+#skills-list{
+  font-weight:400;
+  color: #986d76;
+  list-style: none;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+
+#skills {
+  width: 470px; 
+  height: 335px; 
+  border: 1px solid #986d76; 
+  position: relative; 
+  background: white;
+  text-align: center;
+  font-size: 2.5rem;
+
+}
+
+.bikes {
+  border-radius: 20%;
+}
+
+#bikes {
+  margin-top: 40px;
+}
+
+.hello {
+  margin-top: 100px;
+}
+
+div.hello {
+  margin-top: 150px;
+}
+
+.ecommerce {
+  color: #986d76;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+
 
 /** Navigation style**/
+}
 .navbar-default {
-  background-color: #0c0a0a;
-  color:
+  background-color: hsl(348, 4%, 23%);
+  color: orange;
+  height: 100px;
+  font-size: 30px;
+  padding-top: 20px;
   }
 .navbar-brand>ul>li>a {
   color: transparent white;
@@ -107,13 +197,13 @@ h3 {
   }
 
 #contact {
-  background-image: url("../img/paykyb.jpg");
+ /* background-image: url("../img/paykyb.jpg");
 /*Add a background image*/
   background-attachment: fixed;
 /*Give the background a fixed position does it not scroll when you scroll*/
   background-size: cover;
 /*Have the background cover the entire div section*/
-  color:  white;
+  color:  slategray;
 /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
     /**padding:100px;
     padding-top: 30px;
@@ -122,7 +212,7 @@ h3 {
   }
 
 #submit {
-  margin-top: 15px;
+  margin-bottom: 100px;
   }
 
 .form-control {
@@ -158,28 +248,14 @@ h3 {
 
   }
 
-#more_help {
-  background-color: (169, 159, 133, 0.51);
-  }
-
-#help {
-  margin-top: 15px;
-  text-align: center;
-  float: left;
-  color: white;
-  }
-
 .modal-button {
-  float: right;
+  float: left;
   padding-bottom: 15px;
   margin-top: 0;
   text-align: right;
   margin-right: 25px;
   }
 
-.panel-heading {
-  background-color: #bbbab1;;
-  }
 
 /*Typography*/
 
@@ -197,12 +273,21 @@ p {
 
 
 /** footer**/
+/*footer {
+  background-color: hsl(348, 4%, 23%);
+}*/
+
 .footer {
-  float: right;
+  /*float: right;*/
   color: white;
-  width: 100%;
   display: inline-block;
-  height: 50px;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background-color: hsl(348, 4%, 23%);
+   
   }
 
 .fb-share-button {
@@ -218,17 +303,11 @@ p {
 #copyright {
   background-color: black;
   width: 100%;
-  float: right;
+  text-align: center;
   padding:15px;
   }
 
-iframe {
-  margin: auto;
-  padding-top: 0px;
-  text-align: center;
-  float: right;
-  font: smaller;
-  }
+
   .google{
     float:left;
     margin:5px;
@@ -238,18 +317,11 @@ Add this styling to your CSS see if it appears then...
 width: 100px !important;
 height: 100px !important;
 }**/
-.fb-share-button {
-  display: inline-block;
-  padding-right: 10px;
-  float: right;
-  }
 
-.modal-button {
-  float: right;
-  padding-bottom: 15px;
-  margin-top: 0;
-  text-align: right;
-  margin-right: 25px;
+
+
+ .btn:hover {
+    background-color: orange;
   }
 
 #MyResume{
@@ -283,5 +355,20 @@ height: 100px !important;
   height:200px;
 }
 
+.social {
+  padding-left: 15px;
+  color: lightgrey;
+} 
 
+.fa {
+  padding-left: 15px;
+}
 
+.fa:hover {
+  color: orange;
+}
+
+.fa-2x {
+  float: right;
+  padding-left: 15px;
+}

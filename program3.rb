@@ -1,4 +1,4 @@
-def choose
+=begindef choose
 	puts "Do you like programming? Yes or No please."
 	choice=gets.chomp
 	if (choice.downcase=="yes")

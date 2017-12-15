@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <meta charset="utf-8">
-   <meat http-equiv="X-UA Compatible" content="IE-edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="../css/normalize.css">
-   <link rel="stylesheet" href="../css/calculator.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/index.css" rel="stylesheet">
+    
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
   </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <div id="fb-root"></div>
+    <!-- Fixed navbar -->
+
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Personal Portfolio</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../index.html">Home</a></li>
+            <li><a href="../index.html">About</a></li>
+            <li><a href="../index.html">Projects</a></li>
+            <li><a href="../index.html">Contact</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
 
   <title>Calculator</title>
   <style>
@@ -16,21 +70,25 @@
 @media screen and (min-width:320px){
 
 body{
-  background-image: url("../img/darkwood.jpg");
+  background-image: url("../img/images_for_web/beach.jpg");
+  background-image: cover;
+  background-position: center;
 }
 
-.calculator{
+.calculator {
   height:350px;
   color:white;
   background-color:rgba(96, 110, 132,.9);
   width:320px;
   margin:auto;
-  margin-top:50px;
-  border:3px solid lime;
+  margin-top:100px;
+  border:3px medium aquamarine;
   box-shadow:10px 10px 5px black;
   border-radius:5px;
 
 }
+
+
 .screen {
   height:25px;
   width:100%;
@@ -61,11 +119,18 @@ body{
 .box:hover {
   background-color:#a0b4d3;
 }
-
+h1 {
+  margin-top: 180px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
 
 </style>
   <body>
+  
     <table class="calculator">
+    <h1>Beach Calculator</h1>
       <tr>
         <td class="screen" colspan="4"></td>
       </tr>
@@ -93,7 +158,28 @@ body{
         <td class="box">=</td>
         <td class="box">+</td>
       </tr>
-    </table>
+      </table>
+    
+
+    <footer class="footer ">
+    <!--Facebook share button-->
+      <div class ="container" id="copyright">&copy; anjali 2016
+        <!--<div class="fb-share-button" data-href="https://goo.gl/XJG2zW" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoo.gl%2FXJG2zW&amp;src=sdkpreparse">Share</a>
+
+        <a href="https://twitter.com/goodgoof2" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @goodgoof2</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>-->
+        
+          <span class="social">Share your results with friends</span>
+          
+          <a href="https://twitter.com/goodgoof2/followers"><i class="fa fa-twitter fa-lg"></i></a>
+          <a href="https://github.com/goodgoof/Personal-Portfolio/tree/master/js"><i class="fa fa-github fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/anjalisharma13/"><i class="fa fa-linkedin fa-lg"></i></a>
+          
+        
+        
+      </div>
+
+
+    </footer>
 
   </body>
 </html>

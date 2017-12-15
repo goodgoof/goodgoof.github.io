@@ -1,4 +1,4 @@
-
+=begin
 
 number=0 
 #while (number<=10) do # while this number is true do ..
