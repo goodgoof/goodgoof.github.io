@@ -73,7 +73,7 @@
 //work section
 for(i=0; i< works.length; ++i){
 	$('#work').append (' \
-		<div class="col-xs-6 col-md-3 thumb">\
+		<div class="col-xs-12 col-md-6 thumb">\
 		  <a href=" ' + works[i].url + ' " class="work-img">\
             <img class="thumbnail img-responsive" alt="Responsive image" src=" ' + works[i].pic + ' ">\
           	<span class="info"><p class="proj-title">Title:</p>  ' + works[i].title + ' </span>\

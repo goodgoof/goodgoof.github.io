@@ -1,7 +1,7 @@
 var works=[
 	{
 		title:"First Project-HTML, CSS",
-		pic:"img/images_for_web/hello-bikes.png",
+		pic:"img/images_for_web/calculator.png",
 		url:"js/calculator.html"
 	},
 	{
@@ -19,13 +19,13 @@ var works=[
 	
 	{
 		title:"Fourth Project-HTML, CSS, Javascript, Bootstrap",
-		pic:"img/images_for_web/teaCozy.png",
+		pic:"img/images_for_web/facebook.png",
 		url:"projects/facebook.html"
 	}, 
 
 	{
 		title:"Fifth Project-HTML, CSS, Flexbox,Responsive",
-		pic:"img/images_for_web/jumbo.jpg",
+		pic:"img/images_for_web/secretagent.png",
 		url:"projects/secret-agent-supply.html"
 	}
 
