@@ -26,7 +26,7 @@ var works=[
 	{
 		title:"Fifth Project-HTML, CSS, Flexbox,Responsive",
 		pic:"img/images_for_web/secretagent.png",
-		url:"projects/secret-agent-supply.html"
+		url:"projects/Secret-agent-supply.html"
 	}
 
 
