@@ -1,9 +1,5 @@
 var works=[
-// 	{
-// 		title:"First Project-HTML, CSS",
-// 		pic:"img/images_for_web/calculator.png",
-// 		url:"js/calculator.html"
-// 	},
+	
 	{
 		title:"HTML, CSS, Flexbox",
 		pic:"img/images_for_web/teaCozy.png",
